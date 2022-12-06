@@ -16,11 +16,11 @@ number_to_sell = total_sell_price / profit_per_common
 
 # Print the result
 print("\n")
-print("Profit per common: ", int(profit_per_common))
+print("Profit per card: ", int(profit_per_common))
 print("\n")
 print("Total sell price: ", int(total_sell_price))
 print("\n")
-print("You need to buy", int(number_to_sell + 8), "gold commons to brake even if you keep 8 of them.")
+print("You need to buy", int(number_to_sell + number_to_keep), "cards to brake even if you keep", int(number_to_keep), "of them.")
 print("\n")
-print("You need to sell", int(number_to_sell), "gold commons to brake even.")
+print("You need to sell", int(number_to_sell), "cards to brake even.")
 print("\n")
