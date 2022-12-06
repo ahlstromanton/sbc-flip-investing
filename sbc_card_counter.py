@@ -6,14 +6,11 @@ number_to_keep = float(input("Enter how many cards do you need to keep for the S
 # Calculate the profit per gold common
 profit_per_common = sell_price - buy_price
 
-
 total_keep_price = number_to_keep * buy_price 
 total_sell_price = 0
 
-
 while total_sell_price < total_keep_price:
     total_sell_price += profit_per_common
-
 
 number_to_sell = total_sell_price / profit_per_common
 
